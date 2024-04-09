@@ -1,21 +1,26 @@
-.bigContainer{
-    display: flex;
-    justify-content: center;
-    width: 1vw;
-    height: 1vh;
-}
-
 .container{
     display: flex;
     border: 5px black solid;
     width: 1000px;
     padding: 20px;
-    justify-content: center;
+    /* justify-content: center; */
+    gap: 20px;
+    height: 500px;
+    align-items:end;
 }
 
 .box{
     border: 1px black solid;
     padding: 20px;
     width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 
+#two{
+    height: 300px;
+}
